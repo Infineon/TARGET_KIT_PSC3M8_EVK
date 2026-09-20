@@ -1,0 +1,46 @@
+{
+    "core": {
+        "version": "2.2.0.510"
+    },
+    "opt": {
+        "props": {
+            "capabilities": [
+                "adc",
+                "bsp_gen6",
+                "can",
+                "comp",
+                "dac",
+                "dma",
+                "epc3",
+                "flash_512k",
+                "hal",
+                "i2c",
+                "kit_psc3m8_evk",
+                "low_power",
+                "lptimer",
+                "mcu_gp",
+                "multi_core",
+                "ppca",
+                "psc3",
+                "psc3m8",
+                "rtc",
+                "spi",
+                "sram_128k",
+                "std_crypto",
+                "uart"
+            ],
+            "dependencies": {
+                "core-lib": "release-v1.8.0",
+                "core-make": "release-v3.10.0",
+                "mtb-dsl-psc3m8": "release-v1.2.0",
+                "mtb-srf": "release-v1.2.1"
+            },
+            "flow_version": "2.0",
+            "min_tools": "3.7.0",
+            "template": {
+                "id": "mtb-template-psc3m8",
+                "version": "release-v2.0.5"
+            }
+        }
+    }
+}
